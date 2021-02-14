@@ -1,18 +1,18 @@
-# cash-change
+# Cash (ex)change
 This is a side project for a resilient architecture for a currency exchange house.
 
-# API scope
+## API scope
 - Accounts CRUD + password forget functionality
 - Orders CRUD
 - Admin routes for deposits and withdraws
 
-# Message broker and Orders Service
+## Message broker and Orders Service
 - Order creation events
 - Order execution events
 - Order deletions
 
-# Redis
+## Redis
 - Pub/Sub for NoSQL DB triggers and websocket server
 
-# Next steps
+## Next steps
 - Plan for orders balance reserve
